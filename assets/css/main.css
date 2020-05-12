@@ -3874,10 +3874,10 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/IMG_2658.JPG");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: cover;
 	}
 
 		#intro p {
@@ -3907,3 +3907,78 @@ input, select, textarea {
 			}
 
 		}
+/* one */
+
+#one {
+    background-attachment: fixed;
+    background-image: url("images/miami01.JPG");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    #one p {
+        font-size: 1.25em;
+    }
+
+        @media screen and (max-width: 980px) {
+
+            #one p br {
+                display: none;
+            }
+
+        }
+
+        @media screen and (max-width: 736px) {
+
+            #one p {
+                font-size: 1em;
+            }
+
+        }
+
+    @media screen and (max-width: 1280px) {
+
+        #one {
+            background-attachment: scroll;
+        }
+
+    }
+
+/* two */
+
+#two {
+    background-attachment: fixed;
+    background-image: url("images/IMG_4184.jpg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    #two p {
+        font-size: 1.25em;
+    }
+
+        @media screen and (max-width: 980px) {
+
+            #two p br {
+                display: none;
+            }
+
+        }
+
+        @media screen and (max-width: 736px) {
+
+            #two p {
+                font-size: 1em;
+            }
+
+        }
+
+    @media screen and (max-width: 1280px) {
+
+        #two {
+            background-attachment: scroll;
+        }
+
+    }
