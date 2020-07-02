@@ -3907,78 +3907,78 @@ input, select, textarea {
 			}
 
 		}
-/* one */
+	/* one */
 
-#one {
-    background-attachment: fixed;
-    background-image: url("images/miami01.JPG");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+	#one {
+		background-attachment: fixed;
+		background-image: url("images/miami01.JPG");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-    #one p {
-        font-size: 1.25em;
-    }
+		#one p {
+			font-size: 1.25em;
+		}
 
-        @media screen and (max-width: 980px) {
+			@media screen and (max-width: 980px) {
 
-            #one p br {
-                display: none;
-            }
+				#one p br {
+					display: none;
+				}
 
-        }
+			}
 
-        @media screen and (max-width: 736px) {
+			@media screen and (max-width: 736px) {
 
-            #one p {
-                font-size: 1em;
-            }
+				#one p {
+					font-size: 1em;
+				}
 
-        }
+			}
 
-    @media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1280px) {
 
-        #one {
-            background-attachment: scroll;
-        }
+			#one {
+				background-attachment: scroll;
+			}
 
-    }
+		}
 
-/* two */
+	/* two */
 
-#two {
-    background-attachment: fixed;
-    background-image: url("images/IMG_4184.jpg");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+	#two {
+		background-attachment: fixed;
+		background-image: url("images/kyoto01.JPG");
+		background-position: top right;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-    #two p {
-        font-size: 1.25em;
-    }
+		#two p {
+			font-size: 1.25em;
+		}
 
-        @media screen and (max-width: 980px) {
+			@media screen and (max-width: 980px) {
 
-            #two p br {
-                display: none;
-            }
+				#two p br {
+					display: none;
+				}
 
-        }
+			}
 
-        @media screen and (max-width: 736px) {
+			@media screen and (max-width: 736px) {
 
-            #two p {
-                font-size: 1em;
-            }
+				#two p {
+					font-size: 1em;
+				}
 
-        }
+			}
 
-    @media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1280px) {
 
-        #two {
-            background-attachment: scroll;
-        }
+			#two {
+				background-attachment: scroll;
+			}
 
-    }
+		}
