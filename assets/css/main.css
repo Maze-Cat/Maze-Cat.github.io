@@ -3911,8 +3911,8 @@ input, select, textarea {
 
 	#one {
 		background-attachment: fixed;
-		background-image: url("images/miami01.JPG");
-		background-position: top right;
+		background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("images/miami01.JPG");
+		background-position: bottom right;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -3949,8 +3949,8 @@ input, select, textarea {
 
 	#two {
 		background-attachment: fixed;
-		background-image: url("images/kyoto01.JPG");
-		background-position: top right;
+		background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("images/kyoto011.JPG");
+		background-position: left;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -3974,6 +3974,43 @@ input, select, textarea {
 				}
 
 			}
+
+		@media screen and (max-width: 1280px) {
+
+			#two {
+				background-attachment: scroll;
+			}
+
+		}
+	/* five */
+
+	#five {
+		background-attachment: fixed;
+		background-image: linear-gradient(to right, rgba(0,0,0,0.2),rgba(0,0,0,0.9)), url("images/touch.jpeg");
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: 79%;
+	}
+
+		/*#two p {*/
+		/*	font-size: 1.25em;*/
+		/*}*/
+
+		/*	@media screen and (max-width: 980px) {*/
+
+		/*		#two p br {*/
+		/*			display: none;*/
+		/*		}*/
+
+		/*	}*/
+
+		/*	@media screen and (max-width: 736px) {*/
+
+		/*		#two p {*/
+		/*			font-size: 1em;*/
+		/*		}*/
+
+		/*	}*/
 
 		@media screen and (max-width: 1280px) {
 
